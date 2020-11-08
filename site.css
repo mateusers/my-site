@@ -2,12 +2,22 @@ body{
   background-color: #111111;
 }
 
+.brd{
+  position: absolute;
+  width: 205px;
+  height: 54px;
+  left: 644px;
+  top: -8px;
+
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
 .text {
   font-family: 'Ropa Sans';
   position: absolute;
   width: 226px;
   height: 57px;
-  left: 12px;
+  left: 656px;
   top: 3px;
 
   font-family: Ropa Sans;
@@ -25,17 +35,17 @@ body{
   position: absolute;
   width: 205px;
   height: 54px;
-  left: 644px;
+  left: 0px;
   top: 38px;
 
-  border: 1px solid #FFFFFF;
+  border: 1px solid #111111;
   box-sizing: border-box;
 }
 .text1{
   position: absolute;
   width: 71px;
   height: 13px;
-  left: 550px;
+  left: 1194px;
   top: 25px;
 
   font-family: Ropa Sans;
@@ -54,7 +64,7 @@ body{
   position: absolute;
   width: 28px;
   height: 13px;
-  left: 750px;
+  left: 1394px;
   top: 25px;
 
   font-family: Ropa Sans;
@@ -98,7 +108,7 @@ body{
   position: absolute;
   width: 330px;
   height: 84px;
-  left: -55px;
+  left: 625px;
   top: 356px;
 
   background: rgba(188, 188, 188, 0.88);
@@ -111,7 +121,7 @@ body{
   position: absolute;
   width: 500px;
   height: 47px;
-  left: -35px;
+  left: 644px;
   top: 375px;
 
   font-family: Ropa Sans;
@@ -128,7 +138,7 @@ body{
   position: absolute;
   width: 1523px;
   height: 262px;
-  left: -650px;
+  left: -6px;
   top: 763px;
 
   background: #333333;
@@ -137,7 +147,7 @@ body{
   position: absolute;
   width: 606px;
   height: 47px;
-  left: -180px;
+  left: 464px;
   top: 870px;
 
   font-family: Ropa Sans;
@@ -155,14 +165,14 @@ body{
   position: absolute;
   width: 1516px;
   height: 0px;
-  left: -646px;
+  left: 0px;
   top: 1131px;
 }
 .rect2{
   position: absolute;
   width: 342px;
   height: 80px;
-  left: -55px;
+  left: 589px;
   top: 1100px;
 
   background: #6C6C6C;
@@ -172,7 +182,7 @@ body{
   position: absolute;
   width: 500px;
   height: 47px;
-  left: -17px;
+  left: 627px;
   top: 1118px;
 
   font-family: Ropa Sans;
@@ -191,16 +201,16 @@ body{
   position: absolute;
   width: 1516px;
   height: 0px;
-  left: -646px;
-  top: 2048px;
+  left: 0px;
+  top: 3048px;
 
 }
 .rect3{
   position: absolute;
   width: 342px;
   height: 80px;
-  left: -55px;
-  top: 2014px;
+  left: 589px;
+  top: 3014px;
 
   background: #6C6C6C;
   border-radius: 115px;
@@ -209,8 +219,8 @@ body{
   position: absolute;
   width: 500px;
   height: 57px;
-  left: 22px;
-  top: 2033px;
+  left: 666px;
+  top: 3033px;
 
   font-family: Ropa Sans;
   font-style: normal;
@@ -220,4 +230,208 @@ body{
   /* or 47px */
 
   letter-spacing: 0.065em;
+}
+
+.rect4 {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 844px;
+  top: 1217px;
+
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 23px;
+}
+
+.text8{
+  position: absolute;
+  width: 535px;
+  height: 210px;
+  top: 1320px;
+  left: 894px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 108.5%;
+
+  letter-spacing: 0.045em;
+
+  color: #000000;
+}
+.text9{
+  position: absolute;
+  width: 999px;
+  height: 115px;
+  left: 894px;
+  top: 1270px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 48.5%;
+  /* or 23px */
+
+  letter-spacing: 0.065em;
+
+  color: #000000;
+
+  text-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.rect5 {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 94px;
+  top: 1761px;
+
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 23px;
+}
+
+.img2 {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 94px;
+  top: 1217px;
+
+  background: url(https://bryansk.streetfoot.ru/wp-content/uploads/2019/09/2222_1-600x400.jpg);
+  border-radius: 23px;
+}
+
+.text10{
+  position: absolute;
+  width: 535px;
+  height: 210px;
+  top: 1470px;
+  left: 894px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 108.5%;
+
+  letter-spacing: 0.045em;
+
+  color: #000000;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+.button {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  top: 1540px;
+  left: 944px;
+  font-family: Ropa Sans;
+  font-size: 30px;
+  background-color: rgba(196, 196, 196, 0.5);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  transition-duration: 1.5s;
+}
+
+.button:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  box-shadow: inset 0 0 0 3px #FFFFFF;
+}
+
+.img3{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 844px;
+  top: 1761px;
+
+  background: url(https://lh3.googleusercontent.com/proxy/hktmafZh5SFFP_oPdAhou4BKSJvvXof3BlFXGG61n5mW4NmH8zOsyoAdNgAiB4IWskm11DZ2QOxEjTGwKImS2RkBvsMw-slkndmpw-l4OkHXmQ7PFfIJ4efk8WZ2lxMlLCtrwzYkpZR5Wm8JHc0647MSoCOuQZQfYDHH);
+  border-radius: 23px;
+}
+
+.text11{
+  position: absolute;
+  width: 999px;
+  height: 115px;
+  left: 150px;
+  top: 1815px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 48.5%;
+  /* or 23px */
+
+  letter-spacing: 0.065em;
+
+  color: #000000;
+
+  text-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.text12{
+  position: absolute;
+  width: 538px;
+  height: 180px;
+  left: 150px;
+  top: 1865px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 99.5%;
+  /* or 36px */
+
+  letter-spacing: 0.065em;
+
+  color: #000000;
+
+}
+
+.text13{
+  position: absolute;
+  width: 535px;
+  height: 210px;
+  top: 2035px;
+  left: 150px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 108.5%;
+
+  letter-spacing: 0.045em;
+
+  color: #000000;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.button1 {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  top: 2086px;
+  left: 186px;
+  font-family: Ropa Sans;
+  font-size: 30px;
+  background-color: rgba(196, 196, 196, 0.5);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  transition-duration: 1.5s;
+}
+
+.button1:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  box-shadow: inset 0 0 0 3px #FFFFFF;
 }
