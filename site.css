@@ -1,5 +1,7 @@
 body{
   background-color: #111111;
+  width: 1440px;
+  height: 3072px;
 }
 
 .brd{
@@ -38,8 +40,6 @@ body{
   left: 0px;
   top: 38px;
 
-  border: 1px solid #111111;
-  box-sizing: border-box;
 }
 .text1{
   position: absolute;
@@ -88,13 +88,15 @@ body{
 }
 .hr{
   position: absolute;
-  width: 1516px;
+  width: 1520px;
   height: 0px;
   left: 0px;
   top: 133.5px;
 
   border: 1px solid #FFFFFF;
 }
+
+
 .img1{
   position: absolute;
   width: 1060px;
@@ -104,45 +106,43 @@ body{
 
   background: url(https://cdn3.worldpng.ru/uploads/2020/10/13/bc9f66d730f773c9bdcd3c78a46a247e-full.jpg);
 }
-.text3{
+.button3{
   position: absolute;
   width: 330px;
   height: 84px;
   left: 625px;
-  top: 356px;
+  top: 300px;
 
   background: rgba(188, 188, 188, 0.88);
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
-  border-radius: 135px;
-
-}
-.text4{
-  position: absolute;
-  width: 500px;
-  height: 47px;
-  left: 644px;
-  top: 375px;
-
+  border-radius: 300px;
   font-family: Ropa Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 46px;
-  line-height: 103%;
-
-  letter-spacing: 0.065em;
-
-  color: #FFFFFF;
+  font-size: 30px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  transition-duration: 1.5s;
+  border: 1px solid rgba(90, 90, 90, 0.45);
 }
+.button3:hover{
+  background: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  box-shadow: inset 0 0 0 3px #FFFFFF;
+
+}
+
+
 .rect{
   position: absolute;
   width: 1523px;
   height: 262px;
-  left: -6px;
+  left: 0px;
   top: 763px;
 
   background: #333333;
 }
+
 .text5{
   position: absolute;
   width: 606px;
@@ -163,10 +163,11 @@ body{
 }
 .hr1 {
   position: absolute;
-  width: 1516px;
+  width: 1520px;
   height: 0px;
   left: 0px;
   top: 1131px;
+
 }
 .rect2{
   position: absolute;
@@ -178,12 +179,19 @@ body{
   background: #6C6C6C;
   border-radius: 115px;
 }
-.text6{
+
+.brd:hover{
+  background: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  box-shadow: inset 0 0 0 3px #FFFFFF;
+}
+
+.text6 {
   position: absolute;
   width: 500px;
   height: 47px;
   left: 627px;
-  top: 1118px;
+  top: 1116px;
 
   font-family: Ropa Sans;
   font-style: normal;
@@ -195,6 +203,7 @@ body{
   letter-spacing: 0.065em;
 
   color: #000000;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
 
 }
 .hr2{
@@ -202,7 +211,7 @@ body{
   width: 1516px;
   height: 0px;
   left: 0px;
-  top: 3048px;
+  top: 2848px;
 
 }
 .rect3{
@@ -210,7 +219,7 @@ body{
   width: 342px;
   height: 80px;
   left: 589px;
-  top: 3014px;
+  top: 2817px;
 
   background: #6C6C6C;
   border-radius: 115px;
@@ -220,7 +229,7 @@ body{
   width: 500px;
   height: 57px;
   left: 666px;
-  top: 3033px;
+  top: 2835px;
 
   font-family: Ropa Sans;
   font-style: normal;
@@ -230,6 +239,7 @@ body{
   /* or 47px */
 
   letter-spacing: 0.065em;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
 }
 
 .rect4 {
@@ -321,8 +331,6 @@ body{
   color: #000000;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
 }
-
-
 .button {
   position: absolute;
   width: 400px;
@@ -351,7 +359,7 @@ body{
   left: 844px;
   top: 1761px;
 
-  background: url(https://lh3.googleusercontent.com/proxy/hktmafZh5SFFP_oPdAhou4BKSJvvXof3BlFXGG61n5mW4NmH8zOsyoAdNgAiB4IWskm11DZ2QOxEjTGwKImS2RkBvsMw-slkndmpw-l4OkHXmQ7PFfIJ4efk8WZ2lxMlLCtrwzYkpZR5Wm8JHc0647MSoCOuQZQfYDHH);
+  background: url(https://miniobzor.ru/files/images/ADIDAS%20YEEZY%20500/w1716-1.jpg);
   border-radius: 23px;
 }
 
@@ -434,4 +442,103 @@ body{
   background: rgba(0, 0, 0, 0);
   color: #FFFFFF;
   box-shadow: inset 0 0 0 3px #FFFFFF;
+}
+.rect6{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 844px;
+  top: 2305px;
+
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 23px;
+}
+
+.img4{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 94px;
+  top: 2305px;
+
+  background: url(https://streetfoot.ru/wp-content/uploads/2019/06/img01-600x400.jpg);
+  border-radius: 23px;
+}
+
+.text14{
+  position: absolute;
+  width: 538px;
+  height: 180px;
+  left: 894px;
+  top: 2409px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 99.5%;
+  /* or 36px */
+
+  letter-spacing: 0.065em;
+
+  color: #000000;
+}
+
+.text15{
+  position: absolute;
+  width: 999px;
+  height: 115px;
+  left: 894px;
+  top: 2350px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 48.5%;
+  /* or 23px */
+
+  letter-spacing: 0.065em;
+
+  color: #000000;
+
+  text-shadow: 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.button2{
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  top: 2625px;
+  left: 944px;
+  font-family: Ropa Sans;
+  font-size: 30px;
+  background-color: rgba(196, 196, 196, 0.5);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  transition-duration: 1.5s;
+}
+.button2:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  box-shadow: inset 0 0 0 3px #FFFFFF;
+}
+.text16{
+  position: absolute;
+  width: 535px;
+  height: 210px;
+  top: 2575px;
+  left: 894px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 108.5%;
+
+  letter-spacing: 0.045em;
+
+  color: #000000;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
 }
