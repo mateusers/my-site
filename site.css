@@ -788,3 +788,23 @@ body{
   color: #FFFFFF;
   text-shadow: 3px 3px 1px rgba(255, 255, 255, 0.25);
 }
+
+.text26{
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 1080px;
+  top: 3550px;
+
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 103%;
+  /* or 66px */
+
+  letter-spacing: 0.065em;
+
+  color: #FFFFFF;
+  text-shadow: 2px 3px 1px rgba(255, 255, 255, 0.25);
+}
