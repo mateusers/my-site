@@ -2,6 +2,7 @@ body{
   background-color: #111111;
   width: 1440px;
   height: 3500px;
+  margin: 0px;
 }
 
 .brd{
@@ -23,8 +24,6 @@ body{
   top: 3px;
 
   font-family: Ropa Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 48px;
   line-height: 103%;
   /* or 49px */
@@ -104,14 +103,14 @@ body{
   left: 235px;
   top: 150px;
 
-  background: url(https://cdn3.worldpng.ru/uploads/2020/10/13/bc9f66d730f773c9bdcd3c78a46a247e-full.jpg);
+  background: url(https://i.timeout.ru/pix/resize/473/345/750x485.jpeg);
 }
 .button3{
   position: absolute;
   width: 330px;
   height: 84px;
   left: 625px;
-  top: 300px;
+  top: 310px;
 
   background: rgba(188, 188, 188, 0.88);
   border: 1px solid #FFFFFF;
@@ -808,3 +807,4 @@ body{
   color: #FFFFFF;
   text-shadow: 2px 3px 1px rgba(255, 255, 255, 0.25);
 }
+
